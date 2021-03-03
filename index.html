@@ -10,8 +10,24 @@
     If you found this template somehow - hope you will be comfortable to use it -->
 </head>
 <body>
-    <h1>Hi, I'm a HTML and Sass starter</h1>
+    <header>
+        <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
+        </div>
+        <nav class="nav">
+            <div class="nav__logo"></div>
+            <ul class="menu-nav">
+                <li class="menu-nav__item"><a href="index.html" class="menu-nav__link">Home</a></li>
+                <li class="menu-nav__item"><a href="https://yelyzaveta.netlify.app/" target="_blank" class="menu-nav__link">My web</a></li>
+                <li class="menu-nav__item"><a href="https://yelyzaveta.netlify.app/contact" target="_blank" class="menu-nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Hi, I'm a HTML and Sass starter</h1>
     <p>If header is green everything works fine!</p>
-    <script src="./js/index.js"></script>
+    </main>
+    
+    <script src="./dist/js/index.js"></script>
 </body>
 </html>

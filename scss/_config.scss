@@ -1,5 +1,9 @@
-//include variables below this comment
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
+//include variables below this comment
+$primary-color: black;
+$secondary-color: gray;
 //reset
 *{
     box-sizing: border-box;

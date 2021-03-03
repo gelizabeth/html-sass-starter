@@ -1,16 +1,28 @@
-@import './config', './responsive';
+@import './config', './menu';
 
 
 //Feel free to change everything below this comment
-body{
+body {
     height: 100vh;
     width: 100vw;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-h1{
-    color: green; 
+
+h1 {
+    color: green;
+    font-size: 3rem;
+    font-weight: 300;
+}
+p{
+    font-size: 2rem;
+    font-weight: 100;
 }
